@@ -2,7 +2,6 @@ package com.aluracursos.forohub.infra.exceptions;
 
 import com.aluracursos.forohub.domain.ValidacionException;
 import jakarta.persistence.EntityNotFoundException;
-import jakarta.validation.ValidationException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
