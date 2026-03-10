@@ -1,0 +1,11 @@
+CREATE TABLE usuarios
+(
+    id     BIGINT       NOT NULL AUTO_INCREMENT,
+    login  VARCHAR(100) NOT NULL UNIQUE,
+    clave  VARCHAR(255) NOT NULL,
+    nombre VARCHAR(100) NOT NULL,
+    email  VARCHAR(100) NOT NULL UNIQUE,
+    activo TINYINT(1) NOT NULL DEFAULT 1,
+
+    PRIMARY KEY (id)
+);
